@@ -7,10 +7,9 @@
 ##the cache.
 
 
-##This function has getter and setters for the input matrix and the inverse of
-##input matrix.get and set for getting setting the input matrix.Similarly 
-##getInverse and setInverse for getting setting the inverse of input matrix 
-##after computing..These will be used by cacheSolve() function below.
+##This function has getters and setters for the input matrix and the inverse of
+##input matrix like get,set and getInverse,setInverse respectively .These will 
+##be used by cacheSolve() function below.
 
 
 makeCacheMatrix <- function(x = matrix()) {

@@ -1,10 +1,10 @@
 ## There are two functions that cache the inverse of matrix.Matrix converion is
-##usually a costly computation so it is better to cache.The makeCacheMatrix() 
+##usually a costly computation so it is better to cache.The makeCacheMatrix 
 ##function creates a special matrix object that can cache its inverse and 
 ##cacheSolve computes the inverse of the special "matrix" returned by 
 ##makeCacheMatrix above. If the inverse has already been calculated (and the 
-##matrix has not changed), then the cacheSolve() should retrieve the inverse 
-##from the cache.
+##matrix has not changed), then the cachesolve should retrieve the inverse from 
+##the cache.
 
 
 ##This function has getters and setters for the input matrix and the inverse of
